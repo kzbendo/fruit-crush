@@ -9,7 +9,7 @@ function Board() {
   );
   return (
     <div
-      className="flex flex-wrap rounded-lg"
+      className="flex flex-wrap rounded-lg fixed"
       style={{
         width: `${6.25 * boardSize}rem`,
       }}
